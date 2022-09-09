@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #ffce00;
-  font-family: "Saira", Arial, Helvetica, sans-serif;
+  background-color: #00ffc8;
+  font-family: "Roboto";
 }
 
 h1 {
@@ -29,13 +29,13 @@ h1 span {
   background-color: #fff;
   margin: 30px auto;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-
+  border-radius: 5px 5px 0px 0px;
   cursor: pointer;
   user-select: none;
 }
 
 .date-picker:hover {
-  background-color: #f3f3f3;
+  background-color: #c2faee;
 }
 
 .date-picker .selected-date {
@@ -48,6 +48,7 @@ h1 span {
 
   color: #313131;
   font-size: 28px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .date-picker .dates {
@@ -82,11 +83,11 @@ h1 span {
 }
 
 .date-picker .dates .month .arrows:hover {
-  background-color: #f3f3f3;
+  background-color: #c2faee;
 }
 
 .date-picker .dates .month .arrows:active {
-  background-color: #00ca85;
+  background-color: #00ffc8;
 }
 .date-picker .dates .days {
   display: grid;
@@ -100,11 +101,13 @@ h1 span {
   color: #313131;
 }
 .date-picker .dates .days .day.selected {
-  background-color: #00ca85;
+  background-color: #00ffc8;
+  border-radius: 5px;
 }
 .date-picker .dates .days .day.selected-two {
-  background-color: #ca009e;
+  background-color: #ffd500;
+  border-radius: 5px;
 }
 .date-picker .dates .days .day.in-between {
-  background-color: #9d9d9d;
+  background-color: #c2faee;
 }

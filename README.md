@@ -1,1 +1,3 @@
 # juan-camilo-munera-semana-5
+
+Custom Date Picker project with the purpose of creating a calendar which can be used to pick two dates in any day on any month and display the days in between...

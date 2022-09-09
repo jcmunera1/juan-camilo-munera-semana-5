@@ -112,7 +112,7 @@ function populateDates(e) {
     ) {
       day_element.classList.add("selected-two");
     }
-    if (selectedDate > selectedDateTwo && validateRange(i)) {
+    if (validateRange(i)) {
       day_element.classList.add("in-between");
     }
 
